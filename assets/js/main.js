@@ -1,7 +1,7 @@
 /**
-* Template Name: UpConstruction
-* Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
-* Updated: May 05 2024 with Bootstrap v5.3.3
+* Template Name: Nova
+* Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
+* Updated: Aug 07 2024 with Bootstrap v5.3.3
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
@@ -51,12 +51,10 @@
    */
   document.querySelectorAll('.navmenu .toggle-dropdown').forEach(navmenu => {
     navmenu.addEventListener('click', function(e) {
-      if (document.querySelector('.mobile-nav-active')) {
-        e.preventDefault();
-        this.parentNode.classList.toggle('active');
-        this.parentNode.nextElementSibling.classList.toggle('dropdown-active');
-        e.stopImmediatePropagation();
-      }
+      e.preventDefault();
+      this.parentNode.classList.toggle('active');
+      this.parentNode.nextElementSibling.classList.toggle('dropdown-active');
+      e.stopImmediatePropagation();
     });
   });
 
@@ -112,6 +110,25 @@
   });
 
   /**
+   * Init swiper sliders
+   */
+  function initSwiper() {
+    document.querySelectorAll(".init-swiper").forEach(function(swiperElement) {
+      let config = JSON.parse(
+        swiperElement.querySelector(".swiper-config").innerHTML.trim()
+      );
+
+      if (swiperElement.classList.contains("swiper-tab")) {
+        initSwiperWithCustomPagination(swiperElement, config);
+      } else {
+        new Swiper(swiperElement, config);
+      }
+    });
+  }
+
+  window.addEventListener("load", initSwiper);
+
+  /**
    * Init isotope layout and filters
    */
   document.querySelectorAll('.isotope-layout').forEach(function(isotopeItem) {
@@ -143,21 +160,5 @@
     });
 
   });
-
-  /**
-   * Init swiper sliders
-   */
-  function initSwiper() {
-    document.querySelectorAll('.swiper').forEach(function(swiper) {
-      let config = JSON.parse(swiper.querySelector('.swiper-config').innerHTML.trim());
-      new Swiper(swiper, config);
-    });
-  }
-  window.addEventListener('load', initSwiper);
-
-  /**
-   * Initiate Pure Counter
-   */
-  new PureCounter();
 
 })();
