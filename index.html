@@ -16,59 +16,37 @@
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Mukta:wght@200;300;400;500;600;700;800&family=Abel:wght@400&display=swap"
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
 </head>
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+  <header id="header" class="header d-flex align-items-center position-relative">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename">Tahir Tech Insights</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home<br></a></li>
-          <!-- <li><a href="about.html">About</a></li> -->
-          <!-- <li><a href="services.html">Services</a></li> -->
-          <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
-          <!-- <li><a href="team.html">Team</a></li> -->
-          <!-- <li><a href="blog.html">Blog</a></li> -->
-          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
-                    class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li> -->
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -79,243 +57,334 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/hero-bg-01.png" alt="" data-aos="fade-in">
-
+    <section id="hero" class="hero section">
       <div class="container">
-        <div class="row">
-          <div class="col-xl-4">
-            <h2 data-aos="fade-up">Bridging Technology and Business: Delivering Results That Matter</h2>
-            <blockquote data-aos="fade-up" data-aos-delay="100">
-              <p>Welcome! I'm an Information & Data Technology Specialist with a proven track record in Data
-                Engineering, Cloud Architecture, DevOps, and Full Stack Development. Mission is to collaborate with businesses
-                unlock the full potential of their data and technology, driving innovation, efficiency, and growth.</p>
-            </blockquote>
-            <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-              <a href="https://contra.com/tahirtechinsights" class="btn-get-started">Work With Me</a>
-              <a href="#"
-                class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch
-                  Video</span></a>
+        <div class="row align-items-center">
+          <div class="col-lg-6 hero-content" data-aos="fade-up" data-aos-delay="100">
+            <div class="subtitle">
+              <span>WELCOME TO MY TECH LAB</span>
+            </div>
+
+            <h1 class="title">
+              Innovating the Future of <span class="highlight">Data & AI Technologies</span>
+            </h1>
+
+            <div class="description">
+              <p>As an experienced Information and Data Technologies Professional, I drive transformative solutions
+                across the data lifecycle. My expertise spans cutting-edge Data Engineering, scalable Cloud Solution
+                Architecture, robust DevOps practices, comprehensive Full Stack Development, advanced Data Science and
+                Machine Learning, and leading-edge Generative AI Integrations and Automations. I empower organizations
+                to harness their data for innovation, operational excellence, and accelerated growth.</p>
+            </div>
+
+            <div class="hero-buttons">
+              <a href="#services" class="primary-btn">
+                Our Services
+                <i class="bi bi-chevron-right"></i>
+              </a>
+              <a href="#portfolio" class="secondary-btn">
+                View Portfolio
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 hero-visual" data-aos="fade-up" data-aos-delay="200">
+            <div class="image-wrapper">
+              <img src="assets/img/misc/hero-bg-02.jpg" alt="Creative Design" class="main-image">
+
+              <div class="floating-element top-left">
+                <i class="bi bi-star-fill"></i>
+              </div>
+
+              <div class="floating-element bottom-right">
+                <i class="bi bi-circle-fill"></i>
+              </div>
+
+              <div class="experience-badge">
+                <span class="years">9+</span>
+                <span class="text">Years of Experience</span>
+              </div>
+            </div>
+
+            <div class="client-counter">
+              <div class="counter-number">
+                <span>750+</span>
+              </div>
+              <div class="counter-text">
+                <span>Happy Clients</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
     </section><!-- /Hero Section -->
 
-    <!-- Why Us Section -->
-    <section id="why-us" class="why-us section">
+    <!-- About Section -->
+    <section id="about" class="about section light-background">
 
-      <div class="container">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">Core Competencies</span>
+        <h2>My Professional Trajectory: Pioneering Data-Driven Innovation</h2>
+        <p>Architecting and deploying advanced technological solutions to unlock strategic business value.</p>
+      </div><!-- End Section Title -->
 
-        <div class="row g-0">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="col-xl-5 img-bg" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/why-us-bg.png" alt="">
-          </div>
-
-          <div class="col-xl-7 slides position-relative" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="swiper init-swiper">
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "auto",
-                  "centeredSlides": true,
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
-                  },
-                  "navigation": {
-                    "nextEl": ".swiper-button-next",
-                    "prevEl": ".swiper-button-prev"
-                  }
-                }
-              </script>
-              <div class="swiper-wrapper">
-
-                <!-- Slide 1 -->
-                <div class="swiper-slide">
-                  <div class="item">
-                    <h3 class="mb-3">Let’s Transform Your Data into Actionable Insights</h3>
-                    <h4 class="mb-3">Harness the power of data to drive innovation, efficiency, and growth for your
-                      business.</h4>
-                    <p>With expertise in <strong>Data Engineering</strong> and <strong>Data Science</strong>, I design
-                      and implement scalable solutions that turn raw data into meaningful insights. Whether it’s
-                      building robust data pipelines or deploying advanced analytics, I help businesses make smarter,
-                      data-driven decisions.</p>
-                  </div>
-                </div><!-- End slide item -->
-
-                <!-- Slide 2 -->
-                <div class="swiper-slide">
-                  <div class="item">
-                    <h3 class="mb-3">Scalable Cloud Solutions for Modern Businesses</h3>
-                    <h4 class="mb-3">Architecting secure, cost-effective, and future-proof cloud infrastructures.</h4>
-                    <p>As a <strong>Cloud Architecture Specialist</strong>, I create tailored cloud solutions that align
-                      with your business goals. From migration strategies to optimizing cloud performance, I ensure your
-                      systems are scalable, secure, and ready to handle tomorrow’s challenges.</p>
-                  </div>
-                </div><!-- End slide item -->
-
-                <!-- Slide 3 -->
-                <div class="swiper-slide">
-                  <div class="item">
-                    <h3 class="mb-3">Streamline Development with DevOps Excellence</h3>
-                    <h4 class="mb-3">Automating workflows to deliver faster, more reliable software solutions.</h4>
-                    <p>I specialize in <strong>DevOps practices</strong>, including CI/CD pipelines, infrastructure as
-                      code, and automation. By bridging the gap between development and operations, I help teams deliver
-                      high-quality software efficiently and consistently.</p>
-                  </div>
-                </div><!-- End slide item -->
-
-                <!-- Slide 4 -->
-                <div class="swiper-slide">
-                  <div class="item">
-                    <h3 class="mb-3">End-to-End Full Stack Development</h3>
-                    <h4 class="mb-3">Building seamless, user-centric applications that drive engagement.</h4>
-                    <p>From front-end design to back-end functionality, I deliver <strong>Full Stack
-                        Development</strong> solutions that are intuitive, scalable, and aligned with your business
-                      needs. Let’s create applications that not only look great but also perform flawlessly.</p>
-                  </div>
-                </div><!-- End slide item -->
-
-                <!-- Slide 5 -->
-                <div class="swiper-slide">
-                  <div class="item">
-                    <h3 class="mb-3">Custom Admin Panels and Dashboards with React & Next.js</h3>
-                    <h4 class="mb-3">Designing powerful, intuitive interfaces for seamless data management and
-                      decision-making.</h4>
-                    <p>I specialize in building <strong>React</strong> and <strong>Next.js</strong>-based <strong>Admin
-                        Panels and Dashboards</strong> that are
-                      tailored to your business needs. Whether it’s visualizing complex data, managing workflows, or
-                      enabling real-time analytics, I create scalable and responsive solutions that empower your team to
-                      work smarter and faster.</p>
-                  </div>
-                </div><!-- End slide item -->
-
-                <!-- Slide 6 -->
-                <div class="swiper-slide">
-                  <div class="item">
-                    <h3 class="mb-3">Shopify E-Commerce Store Development</h3>
-                    <h4 class="mb-3">Crafting high-performing, visually stunning online stores that drive sales.</h4>
-                    <p>From custom theme development to seamless third-party integrations, I deliver <strong>Shopify
-                        E-Commerce Solutions</strong> that elevate your online presence. Whether you’re launching a new
-                      store or
-                      optimizing an existing one, I ensure your platform is user-friendly, scalable, and optimized for
-                      conversions.</p>
-                  </div>
-                </div><!-- End slide item -->
-
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="about-image-wrapper position-relative">
+              <img src="assets/img/about/speaking-at kaggle-days.jpeg" alt="Data and Cloud Professional"
+                class="img-fluid rounded-4">
+              <div class="mission-card">
+                <div class="mission-icon">
+                  <i class="bi bi-lightbulb"></i>
+                </div>
+                <div class="mission-content">
+                  <h4>My Mission</h4>
+                  <p>Transforming complex data challenges into scalable, intelligent solutions that drive business value
+                  </p>
+                </div>
               </div>
-              <div class="swiper-pagination"></div>
             </div>
-
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
           </div>
 
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="about-content ps-lg-4">
+              <div class="tag-badge" data-aos="fade-up" data-aos-delay="100">TECHNICAL PROFILE</div>
+              <h2 class="mb-4" data-aos="fade-up" data-aos-delay="200">Data & Cloud Solutions Architect with Full-Stack
+                Technical Expertise</h2>
+
+              <div class="about-info" data-aos="fade-up" data-aos-delay="300">
+                <p>My specialization lies in architecting and implementing comprehensive, end-to-end data solutions.
+                  This encompasses the entire spectrum from establishing resilient data pipelines and scalable
+                  cloud-native architectures to developing sophisticated Generative AI applications. I synergize
+                  profound technical acumen with strategic foresight to deliver solutions that are not only innovative
+                  but also meticulously engineered for production readiness. My proficiency spans the complete data
+                  lifecycle—from robust data ingestion and transformation to advanced analytics, Machine Learning model
+                  deployment, and intuitive data visualization—enabling organizations to fully leverage their data
+                  assets through contemporary engineering methodologies, optimized cloud infrastructure, and intelligent
+                  automation frameworks.</p>
+              </div>
+
+              <h4 class="values-title mt-4 mb-3" data-aos="fade-up" data-aos-delay="400">Core Competencies</h4>
+
+              <div class="values-list" data-aos="fade-up" data-aos-delay="500">
+                <div class="value-item">
+                  <div class="value-icon"><i class="bi bi-robot"></i></div>
+                  <span class="value-text">Generative AI Integrations & Automation</span>
+                </div>
+                <div class="value-item">
+                  <div class="value-icon"><i class="bi bi-cloud"></i></div>
+                  <span class="value-text">Data Engineering & Advanced ETL</span>
+                </div>
+                <div class="value-item">
+                  <div class="value-icon"><i class="bi bi-database"></i></div>
+                  <span class="value-text">Cloud Solution Architecture (AWS/Azure/GCP)</span>
+                </div>
+                <div class="value-item">
+                  <div class="value-icon"><i class="bi bi-code-slash"></i></div>
+                  <span class="value-text">DevOps & MLOps CI/CD Pipelines</span>
+                </div>
+                <div class="value-item">
+                  <div class="value-icon"><i class="bi bi-diagram-3"></i></div>
+                  <span class="value-text">Full Stack Development (Backend & Frontend)</span>
+                </div>
+                <div class="value-item">
+                  <div class="value-icon"><i class="bi bi-bar-chart"></i></div>
+                  <span class="value-text">Data Science & Machine Learning Operations</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
 
-    </section><!-- /Why Us Section -->
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="stats-wrapper">
+              <div class="stats-item" data-aos="zoom-in" data-aos-delay="150">
+                <div class="icon-wrapper">
+                  <i class="bi bi-emoji-smile"></i>
+                </div>
+                <span data-purecounter-start="0" data-purecounter-end="23" data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <p>Happy Clients</p>
+              </div><!-- End Stats Item -->
+
+              <div class="stats-item" data-aos="zoom-in" data-aos-delay="200">
+                <div class="icon-wrapper">
+                  <i class="bi bi-journal-richtext"></i>
+                </div>
+                <span data-purecounter-start="0" data-purecounter-end="78" data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <p>Projects</p>
+              </div><!-- End Stats Item -->
+
+              <div class="stats-item" data-aos="zoom-in" data-aos-delay="250">
+                <div class="icon-wrapper">
+                  <i class="bi bi-headset"></i>
+                </div>
+                <span data-purecounter-start="0" data-purecounter-end="1163" data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <p>Hours Of Support</p>
+              </div><!-- End Stats Item -->
+
+              <div class="stats-item" data-aos="zoom-in" data-aos-delay="300">
+                <div class="icon-wrapper">
+                  <i class="bi bi-people"></i>
+                </div>
+                <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <p>Hard Workers</p>
+              </div><!-- End Stats Item -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
 
     <!-- Services Section -->
     <section id="services" class="services section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Our Services</h2>
-        <p>Empowering businesses with cutting-edge technology solutions tailored to their unique needs.</p>
+        <span class="description-title">Services</span>
+        <h2>Services</h2>
+        <h2>Strategic Technology Solutions</h2>
+        <p>Delivering comprehensive, data-driven solutions to propel your business forward.</p>
       </div><!-- End Section Title -->
 
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-4">
-
-          <!-- Service Item 1: Data Engineering -->
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon flex-shrink-0"><i class="bi bi-database" style="color: #f57813;"></i></div>
-            <div>
-              <h4 class="title">Data Engineering</h4>
-              <p class="description">Designing and building robust, scalable data pipelines to transform raw data into
-                actionable insights for smarter decision-making.</p>
-              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+        <div class="services-header">
+          <div class="row">
+            <div class="col-lg-9" data-aos="fade-right">
+              <div class="services-intro">
+                <div class="services-tag">Strategic Consulting</div>
+                <h2>Empowering Businesses Through Advanced Data & AI</h2>
+                <p>I partner with organizations to architect, develop, and deploy cutting-edge data and AI solutions.
+                  From optimizing data workflows to integrating intelligent automation, my services are designed to
+                  address complex technological challenges and unlock new avenues for growth and efficiency.</p>
+                <p>Leveraging deep expertise in Data Engineering, Cloud Solutions, DevOps, Full Stack Development, Data
+                  Science, Machine Learning, and Generative AI, I ensure your technology infrastructure is robust,
+                  scalable, and future-proof. My approach focuses on delivering tangible business value through
+                  strategic implementation and continuous innovation.</p>
+              </div>
             </div>
-          </div><!-- End Service Item -->
-
-          <!-- Service Item 2: Data Science & Analytics -->
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart" style="color: #15a04a;"></i></div>
-            <div>
-              <h4 class="title">Data Science & Analytics</h4>
-              <p class="description">Leveraging advanced analytics, machine learning, and AI to uncover patterns,
-                predict trends, and drive data-driven strategies.</p>
-              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+            <div class="col-lg-3" data-aos="fade-left">
+              <div class="services-stats">
+                <div class="stat-item">
+                  <span class="stat-number">500+</span>
+                  <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">98%</span>
+                  <span class="stat-label">Client Satisfaction</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">9+</span>
+                  <span class="stat-label">Years Experience</span>
+                </div>
+              </div>
             </div>
-          </div><!-- End Service Item -->
+          </div>
+        </div>
 
-          <!-- Service Item 3: Cloud Architecture -->
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon flex-shrink-0"><i class="bi bi-cloud" style="color: #d90769;"></i></div>
-            <div>
-              <h4 class="title">Cloud Solution Architect</h4>
-              <p class="description">Building secure, scalable, and cost-effective cloud solutions to optimize
-                performance and future-proof your business.</p>
-              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-card">
+              <div class="service-card-inner">
+                <div class="service-icon">
+                  <i class="bi bi-database"></i>
+                </div>
+                <h3>Data Engineering & Analytics Platform Development</h3>
+                <p>Designing, building, and optimizing robust data pipelines and scalable analytics platforms for
+                  efficient data ingestion, transformation, and storage (ETL/ELT). Implementing data warehousing
+                  solutions, data lake architectures, and real-time data processing frameworks.</p>
+              </div>
             </div>
-          </div><!-- End Service Item -->
+          </div>
 
-          <!-- Service Item 4: DevOps & Automation -->
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon flex-shrink-0"><i class="bi bi-gear" style="color: #15bfbc;"></i></div>
-            <div>
-              <h4 class="title">DevOps & Automation</h4>
-              <p class="description">Streamlining development and operations with CI/CD pipelines, infrastructure as
-                code, and automation for faster, reliable deployments.</p>
-              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-card">
+              <div class="service-card-inner">
+                <div class="service-icon">
+                  <i class="bi bi-cloud-arrow-up"></i>
+                </div>
+                <h3>Cloud Solution Architecture & Migration</h3>
+                <p>Architecting, deploying, and managing secure, highly available, and cost-optimized cloud
+                  infrastructure on leading platforms (AWS, Azure, GCP). Specializing in cloud-native application
+                  development, serverless architectures, and seamless legacy system migrations.</p>
+              </div>
             </div>
-          </div><!-- End Service Item -->
+          </div>
 
-          <!-- Service Item 5: Full Stack Development -->
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon flex-shrink-0"><i class="bi bi-code-slash" style="color: #f5cf13;"></i></div>
-            <div>
-              <h4 class="title">Full Stack Development</h4>
-              <p class="description">Building seamless, user-centric applications with end-to-end development expertise,
-                from front-end design to back-end functionality.</p>
-              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-card">
+              <div class="service-card-inner">
+                <div class="service-icon">
+                  <i class="bi bi-gear-wide-connected"></i>
+                </div>
+                <h3>DevOps & MLOps Implementation</h3>
+                <p>Establishing automated CI/CD pipelines for software and machine learning models, fostering seamless
+                  collaboration, rapid deployment, and continuous monitoring. Implementing infrastructure as code (IaC)
+                  and containerization strategies to enhance operational efficiency and reliability.</p>
+              </div>
             </div>
-          </div><!-- End Service Item -->
+          </div>
 
-          <!-- Service Item 6: React & Next.js Admin Panels -->
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
-            <div class="icon flex-shrink-0"><i class="bi bi-layout-text-window" style="color: #1335f5;"></i></div>
-            <div>
-              <h4 class="title">React & Next.js Admin Panels</h4>
-              <p class="description">Developing intuitive, data-driven admin panels and dashboards to streamline
-                workflows and enhance decision-making.</p>
-              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-card">
+              <div class="service-card-inner">
+                <div class="service-icon">
+                  <i class="bi bi-robot"></i>
+                </div>
+                <h3>Generative AI & Machine Learning Solutions</h3>
+                <p>Developing and integrating advanced Generative AI models and Machine Learning solutions, from
+                  predictive analytics and natural language processing to intelligent automation and custom AI
+                  applications. Specializing in model training, deployment, and MLOps best practices.</p>
+              </div>
             </div>
-          </div><!-- End Service Item -->
+          </div>
 
-          <!-- Service Item 7: Shopify E-Commerce Development -->
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="700">
-            <div class="icon flex-shrink-0"><i class="bi bi-cart" style="color: #ff3d3d;"></i></div>
-            <div>
-              <h4 class="title">Shopify E-Commerce Development</h4>
-              <p class="description">Creating high-performing, visually stunning Shopify stores tailored to drive sales
-                and enhance customer experiences.</p>
-              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-card">
+              <div class="service-card-inner">
+                <div class="service-icon">
+                  <i class="bi bi-code-slash"></i>
+                </div>
+                <h3>Full Stack Web Application Development</h3>
+                <p>Building responsive and high-performance web applications with expertise across both front-end
+                  (React, Angular, Vue.js) and back-end (Python, Node.js) technologies. Focusing on robust API design,
+                  database integration, and intuitive user experiences.</p>
+              </div>
             </div>
-          </div><!-- End Service Item -->
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-card">
+              <div class="service-card-inner">
+                <div class="service-icon">
+                  <i class="bi bi-bar-chart-line"></i>
+                </div>
+                <h3>Data Science & Predictive Modeling</h3>
+                <p>Applying statistical analysis, machine learning algorithms, and data visualization techniques to
+                  extract actionable insights from complex datasets. Developing predictive models for forecasting,
+                  anomaly detection, and business optimization.</p>
+              </div>
+            </div>
+          </div>
 
         </div>
 
@@ -323,117 +392,161 @@
 
     </section><!-- /Services Section -->
 
-    <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section dark-background">
-
-      <img src="assets/img/cta-bg-02.jpg" alt="">
-
-      <div class="container">
-        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-xl-10">
-            <div class="text-center">
-              <h3>Let’s Build the Future Together</h3>
-              <p>Ready to transform your data into actionable insights, streamline your operations, or build
-                cutting-edge solutions? Whether you need help with <strong>Data Engineering</strong>, <strong>Cloud
-                  Architecture</strong>, <strong>DevOps</strong>, or <strong>Full Stack Development</strong>, I’m here
-                to help you achieve your goals. Let’s collaborate to create innovative, scalable, and impactful
-                solutions for your business.</p>
-              <a class="cta-btn" href="https://contra.com/tahirtechinsights">Get in Touch</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section><!-- /Call To Action Section -->
-
     <!-- Features Section -->
     <section id="features" class="features section">
 
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="mb-0">Cutting-Edge Solutions for</h3>
-            <h3>Scalable & Intelligent Business Growth</h3>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">Key Capabilities</span>
+        <h2>Key Capabilities</h2>
+        <h2>Engineering Excellence & Strategic Impact</h2>
+        <p>Pioneering robust and scalable technology solutions that drive digital transformation.</p>
+      </div><!-- End Section Title -->
 
-            <div class="row gy-4">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="bi bi-cloud" style="color: #ff8b2c;"></i>
-                  <span>Cloud-Native Data Architecture</span>
+        <div class="features-overview">
+          <div class="main-heading" data-aos="fade-right" data-aos-delay="200">
+            <h2>Holistic Approach to Digital Transformation</h2>
+            <p>Leveraging cutting-edge data, cloud, and AI technologies, I architect solutions that empower
+              comprehensive operational excellence across your enterprise.
+              My robust solutions seamlessly integrate diverse systems, streamlining complex workflows, and boosting
+              productivity through intelligent automation and scalable infrastructure.
+              Gain transformative insights through sophisticated Data Science and Machine Learning models, enabling
+              data-driven decision-making and predictive capabilities.
+              Experience unparalleled efficiency, resilience, and scalability, designed to future-proof your digital
+              landscape and accelerate business growth.</p>
+            <div class="achievement-badges">
+              <div class="achievement">
+                <span class="achievement-icon">
+                  <i class="bi bi-shield-check"></i>
+                </span>
+                <div class="achievement-info">
+                  <span class="achievement-value">95%</span>
+                  <span class="achievement-label">Client Retention</span>
                 </div>
-              </div><!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="bi bi-database" style="color: #5578ff;"></i>
-                  <span>Advanced Data Engineering Pipelines</span>
+              </div>
+              <div class="achievement">
+                <span class="achievement-icon">
+                  <i class="bi bi-clock-history"></i>
+                </span>
+                <div class="achievement-info">
+                  <span class="achievement-value">Around-the-Clock</span>
+                  <span class="achievement-label">Dedicated Support</span>
                 </div>
-              </div><!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="bi bi-bar-chart" style="color: #e80368;"></i>
-                  <span>Data Science & AI-Powered Insights</span>
-                </div>
-              </div><!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="bi bi-shield-lock" style="color: #ffa76e;"></i>
-                  <span>Secure & Scalable Cloud Solutions</span>
-                </div>
-              </div><!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="bi bi-laptop" style="color: #11dbcf;"></i>
-                  <span>Full Stack Web & Admin Panel Development</span>
-                </div>
-              </div><!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="bi bi-cart" style="color: #4233ff;"></i>
-                  <span>Shopify & E-Commerce Optimization</span>
-                </div>
-              </div><!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="bi bi-diagram-3" style="color: #29cc61;"></i>
-                  <span>DevOps & CI/CD Automation</span>
-                </div>
-              </div><!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="bi bi-code-slash" style="color: #ff5828;"></i>
-                  <span>API Development & Integrations</span>
-                </div>
-              </div><!-- End Icon List Item-->
-
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-5 position-relative" data-aos="zoom-out" data-aos-delay="200">
-            <div class="phone-wrap">
-              <img src="assets/img/Robo AI.png" alt="Image" class="img-fluid">
+          <div class="features-card-wrapper" data-aos="fade-left" data-aos-delay="300">
+            <div class="features-row">
+              <div class="feature-card feature-primary" data-aos="zoom-in" data-aos-delay="200">
+                <div class="feature-icon">
+                  <i class="bi bi-cloud-check"></i>
+                </div>
+                <div class="feature-details">
+                  <h3>Secure Cloud & Data Architectures</h3>
+                  <p>Designing and implementing resilient, multi-layered security protocols for cloud environments and
+                    data platforms to protect critical assets and ensure compliance.</p>
+                  <div class="feature-status active">
+                    <span class="status-indicator"></span>
+                    <span class="status-text">Deployed</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature-card" data-aos="zoom-in" data-aos-delay="300">
+                <div class="feature-icon">
+                  <i class="bi bi-buildings"></i>
+                </div>
+                <div class="feature-details">
+                  <h3>Strategic Cloud Modernization</h3>
+                  <p>Guiding seamless migration and modernization of existing infrastructure and applications to
+                    scalable, cost-effective cloud-native solutions (AWS, Azure, GCP).</p>
+                  <div class="feature-status pending">
+                    <span class="status-indicator"></span>
+                    <span class="status-text">In Development</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="features-row">
+              <div class="feature-card" data-aos="zoom-in" data-aos-delay="400">
+                <div class="feature-icon">
+                  <i class="bi bi-clipboard-check"></i>
+                </div>
+                <div class="feature-details">
+                  <h3>Advanced Data Governance & Quality</h3>
+                  <p>Implementing comprehensive data governance frameworks and automated data quality checks to ensure
+                    data integrity, compliance, and trustworthiness across all data assets.</p>
+                  <div class="feature-status active">
+                    <span class="status-indicator"></span>
+                    <span class="status-text">Operational</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature-card" data-aos="zoom-in" data-aos-delay="500">
+                <div class="feature-icon">
+                  <i class="bi bi-cpu"></i>
+                </div>
+                <div class="feature-details">
+                  <h3>Generative AI & Intelligent Automation</h3>
+                  <p>Developing and integrating cutting-edge Generative AI models and intelligent automation solutions
+                    to optimize workflows, enhance decision-making, and unlock new business capabilities.</p>
+                  <div class="feature-status scheduled">
+                    <span class="status-indicator"></span>
+                    <span class="status-text">Scheduled</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-      </div>
+        <div class="additional-features" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gx-4 gy-4">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="additional-feature-card">
+                <div class="icon-container">
+                  <i class="bi bi-terminal"></i>
+                </div>
+                <h4>DevOps & CI/CD Excellence</h4>
+                <p>Implementing robust DevOps and MLOps practices, including Continuous Integration and Continuous
+                  Delivery (CI/CD) pipelines, to accelerate development cycles and ensure reliable deployments.</p>
+                <div class="feature-tag active">
+                  <i class="bi bi-check-circle"></i> Active
+                </div>
+              </div>
+            </div>
 
-      <div class="details">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-              <h4>Transform Data Into Actionable Insights</h4>
-              <p>Unlock the power of data with cutting-edge engineering, scalable cloud solutions, and AI-driven
-                intelligence. Whether it's streamlining operations, optimizing e-commerce, or deploying enterprise-grade
-                applications, I deliver tailored solutions that drive business success.</p>
-              <a href="#about" class="btn-get-started">Get Started</a>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="additional-feature-card">
+                <div class="icon-container">
+                  <i class="bi bi-speedometer"></i>
+                </div>
+                <h4>Advanced Performance Analytics & Observability</h4>
+                <p>Establishing comprehensive monitoring and observability solutions for systems, applications, and data
+                  pipelines to ensure optimal performance, proactive issue detection, and data-driven insights.</p>
+                <div class="feature-tag pending">
+                  <i class="bi bi-arrow-repeat"></i> Pending
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="additional-feature-card">
+                <div class="icon-container">
+                  <i class="bi bi-bezier2"></i>
+                </div>
+                <h4>Scalable Architecture & Future-Proofing</h4>
+                <p>Designing flexible and scalable architectures that adapt to evolving business needs, ensuring
+                  long-term sustainability and readiness for future technological advancements.</p>
+                <div class="feature-tag scheduled">
+                  <i class="bi bi-calendar-check"></i> Planned
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -441,154 +554,622 @@
 
     </section><!-- /Features Section -->
 
-    <!-- Recent Posts Section -->
-    <section id="recent-posts" class="recent-posts section">
+    <!-- Features Alt Section -->
+    <section id="features-alt" class="features-alt section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Recent Blog Posts</h2>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-5">
-
-          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="post-box">
-              <div class="post-img"><img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt=""></div>
-              <div class="meta">
-                <span class="post-date">2025, Feb 24</span>
-                <span class="post-author"> / Muhammad Tahir A.</span>
-              </div>
-              <h3 class="post-title">Mastering Shopify Theme Code Modifications: A Developer’s Guide</h3>
-              <p>In this blog, we will explore key technical aspects of Shopify theme modifications and how you can
-                leverage them to optimize your store....</p>
-              <a href="#" class="readmore stretched-link"><span>Read More</span><i
-                  class="bi bi-arrow-right"></i></a>
-            </div>
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <ul class="nav nav-tabs flex-column" role="tablist" data-aos="fade-right" data-aos-delay="200">
+              <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#features-alt-tab-1" role="tab">
+                  <div class="d-flex align-items-center">
+                    <div class="icon-box">
+                      <i class="bi bi-database"></i>
+                    </div>
+                    <div class="ms-3">
+                      <h4>Data Engineering & ETL Pipelines</h4>
+                      <p>Building robust foundations for your data strategy.</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-alt-tab-2" role="tab">
+                  <div class="d-flex align-items-center">
+                    <div class="icon-box">
+                      <i class="bi bi-cloud"></i>
+                    </div>
+                    <div class="ms-3">
+                      <h4>Cloud Solution Architecture</h4>
+                      <p>Designing resilient, scalable, and secure cloud environments.</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-alt-tab-3" role="tab">
+                  <div class="d-flex align-items-center">
+                    <div class="icon-box">
+                      <i class="bi bi-cpu-fill"></i>
+                    </div>
+                    <div class="ms-3">
+                      <h4>DevOps & MLOps Implementations</h4>
+                      <p>Accelerating development and deployment lifecycles.</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-alt-tab-4" role="tab">
+                  <div class="d-flex align-items-center">
+                    <div class="icon-box">
+                      <i class="bi bi-code-square"></i>
+                    </div>
+                    <div class="ms-3">
+                      <h4>Full Stack Development</h4>
+                      <p>Building comprehensive and interactive web solutions.</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-alt-tab-5" role="tab">
+                  <div class="d-flex align-items-center">
+                    <div class="icon-box">
+                      <i class="bi bi-briefcase"></i>
+                    </div>
+                    <div class="ms-3">
+                      <h4>Curabitur Aliquet</h4>
+                      <p>Excepteur sint occaecat cupidatat</p>
+                    </div>
+                  </div>
+                </a>
+              </li> -->
+            </ul>
           </div>
 
-          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="post-box">
-              <div class="post-img"><img src="assets/img/blog/Deploy AWS CloudFormation Using Azure DevOps.gif"
-                  class="img-fluid" alt=""></div>
-              <div class="meta">
-                <span class="post-date">2024, Aug 25</span>
-                <span class="post-author"> / Muhammad Tahir A.</span>
+          <div class="col-lg-8">
+            <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
+              <div class="tab-pane fade active show" id="features-alt-tab-1" role="tabpanel">
+                <div class="content-box">
+                  <div class="row g-4">
+                    <div class="col-lg-6">
+                      <h3>Crafting Scalable Data Pipelines for Insight</h3>
+                      <p>I specialize in designing, developing, and optimizing high-performance data pipelines (ETL/ELT)
+                        that ingest, transform, and load vast datasets from diverse sources. My focus is on creating
+                        resilient and scalable data architectures capable of supporting advanced analytics and machine
+                        learning initiatives. Leveraging modern data warehousing and data lake concepts, I ensure your
+                        data infrastructure is robust, efficient, and capable of handling future growth and evolving
+                        business requirements.</p>
+                      <ul class="features-list">
+                        <li>
+                          <i class="bi bi-check2-circle"></i>
+                          <span>Designing and implementing scalable ETL/ELT workflows.</span>
+                        </li>
+                        <li>
+                          <i class="bi bi-check2-circle"></i>
+                          <span>Building and optimizing data warehouses and data lakes.</span>
+                        </li>
+                        <li>
+                          <i class="bi bi-check2-circle"></i>
+                          <span>Integrating real-time and batch processing solutions.</span>
+                        </li>
+                        <li>
+                          <i class="bi bi-check2-circle"></i>
+                          <span>Ensuring data quality, consistency, and reliability.</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="image-box">
+                        <img src="assets/img/misc/data-engineering.jpg" alt="" class="img-fluid" loading="lazy">
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <h3 class="post-title">Setup Azure DevOps CI/CD Pipeline for AWS Serverless Solutions Deployment</h3>
-              <p>In this blog, we will walk through the complete technical details to set up a CI/CD pipeline in Azure
-                DevOps for deploying AWS Serverless solutions...</p>
-              <a href="#" class="readmore stretched-link"><span>Read More</span><i
-                  class="bi bi-arrow-right"></i></a>
+
+              <div class="tab-pane fade" id="features-alt-tab-2" role="tabpanel">
+                <div class="content-box">
+                  <div class="row g-4">
+                    <div class="col-lg-6">
+                      <h3>Architecting Cloud-Native Systems for Peak Performance</h3>
+                      <p>My expertise extends to architecting and deploying comprehensive cloud solutions across leading
+                        platforms such as AWS, Azure, and Google Cloud Platform. I focus on designing highly available,
+                        fault-tolerant, and cost-effective infrastructures tailored to specific business needs. From
+                        serverless computing and containerization (Docker, Kubernetes) to robust networking and security
+                        configurations, I build cloud environments that maximize agility, efficiency, and innovation.
+                      </p>
+                      <!-- <p class="highlight">Nulla quis lorem ut libero malesuada feugiat. Nulla quis lorem ut libero
+                        malesuada feugiat.</p> -->
+                      <ul class="features-list">
+                        <li>
+                          <i class="bi bi-check2-circle"></i>
+                          <span>Developing multi-cloud and hybrid cloud strategies</span>
+                        </li>
+                        <li>
+                          <i class="bi bi-check2-circle"></i>
+                          <span>Implementing serverless architectures and microservices</span>
+                        </li>
+                        <li>
+                          <i class="bi bi-check2-circle"></i>
+                          <span>Containerization with Docker and Kubernetes</span>
+                        </li>
+                        <li>
+                          <i class="bi bi-check2-circle"></i>
+                          <span>Optimizing cloud resource utilization and cost</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="image-box">
+                        <img src="assets/img/misc/cloud-solution-architect.jpg" alt="" class="img-fluid" loading="lazy">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="features-alt-tab-3" role="tabpanel">
+                <div class="content-box">
+                  <div class="row g-4">
+                    <div class="col-lg-6">
+                      <h3>Automating the Path from Code to Production</h3>
+                      <p>I establish robust DevOps and MLOps practices, integrating Continuous Integration, Continuous
+                        Delivery (CI/CD), and Continuous Deployment methodologies. This ensures rapid, reliable, and
+                        automated software and machine learning model deployments. My focus is on creating efficient
+                        pipelines, automating infrastructure provisioning (Infrastructure as Code), and implementing
+                        proactive monitoring to streamline operations and enhance collaboration between development and
+                        operations teams.</p>
+                      <!-- <p class="highlight">Donec sollicitudin molestie malesuada. Vestibulum ac diam sit amet quam
+                        vehicula
+                        elementum sed sit amet dui.</p> -->
+                      <ul class="features-list">
+                        <li>
+                          <i class="bi bi-check2-circle"></i>
+                          <span>Designing and implementing CI/CD pipelines</span>
+                        </li>
+                        <li>
+                          <i class="bi bi-check2-circle"></i>
+                          <span>Infrastructure as Code (IaC) with Terraform/CloudFormation</span>
+                        </li>
+                        <li>
+                          <i class="bi bi-check2-circle"></i>
+                          <span>Automated testing and deployment strategies</span>
+                        </li>
+                        <li>
+                          <i class="bi bi-check2-circle"></i>
+                          <span>Monitoring, logging, and alerting for production systems</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="image-box">
+                        <img src="assets/img/misc/mlOps.jpg" alt="" class="img-fluid" loading="lazy">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="features-alt-tab-4" role="tabpanel">
+                <div class="content-box">
+                  <div class="row g-4">
+                    <div class="col-lg-6">
+                      <h3>Developing Engaging & High-Performance Web Applications</h3>
+                      <p>With expertise in both front-end and back-end technologies, I develop dynamic and responsive
+                        web applications. My front-end skills include modern JavaScript frameworks like React, Angular,
+                        and Vue.js, ensuring intuitive user interfaces and exceptional user experiences. On the
+                        back-end, I leverage Python (Django, Flask), Node.js, and robust database systems (SQL/NoSQL) to
+                        build scalable APIs, secure authentication systems, and efficient data processing layers.</p>
+                      <!-- <p class="highlight">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+                        Curabitur
+                        non nulla sit amet nisl tempus.</p> -->
+                      <ul class="features-list">
+                        <li>
+                          <i class="bi bi-check2-circle"></i>
+                          <span>Front-end development with modern JavaScript frameworks</span>
+                        </li>
+                        <li>
+                          <i class="bi bi-check2-circle"></i>
+                          <span>Back-end development with Python/Node.js and RESTful APIs</span>
+                        </li>
+                        <li>
+                          <i class="bi bi-check2-circle"></i>
+                          <span>Database design and integration (SQL & NoSQL)</span>
+                        </li>
+                        <li>
+                          <i class="bi bi-check2-circle"></i>
+                          <span>API development and third-party service integration</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="image-box">
+                        <img src="assets/img/misc/fullstack-development.png" alt="" class="img-fluid" loading="lazy">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- <div class="tab-pane fade" id="features-alt-tab-5" role="tabpanel">
+                <div class="content-box">
+                  <div class="row g-4">
+                    <div class="col-lg-6">
+                      <h3>Vestibulum Ante Ipsum</h3>
+                      <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium
+                        ut
+                        lacinia in, elementum id enim.</p>
+                      <p class="highlight">Donec rutrum congue leo eget malesuada. Vestibulum ac diam sit amet quam
+                        vehicula
+                        elementum sed sit amet dui.</p>
+                      <ul class="features-list">
+                        <li>
+                          <i class="bi bi-check2-circle"></i>
+                          <span>Vivamus suscipit tortor eget felis</span>
+                        </li>
+                        <li>
+                          <i class="bi bi-check2-circle"></i>
+                          <span>Curabitur aliquet quam id dui</span>
+                        </li>
+                        <li>
+                          <i class="bi bi-check2-circle"></i>
+                          <span>Nulla quis lorem ut libero</span>
+                        </li>
+                        <li>
+                          <i class="bi bi-check2-circle"></i>
+                          <span>Vestibulum ac diam sit amet</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="image-box">
+                        <img src="assets/img/misc/misc-square-3.webp" alt="" class="img-fluid" loading="lazy">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
             </div>
           </div>
-
-          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="post-box">
-              <div class="post-img"><img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt=""></div>
-              <div class="meta">
-                <span class="post-date">2025, July 27</span>
-                <span class="post-author"> / Muhammad Tahir A.</span>
-              </div>
-              <h3 class="post-title">Chatbots with Langchain, Langserve, Pinecone, and AWS</h3>
-              <p>In this article, I will outline a workflow that I currently use to build custom AI chatbots for my
-                clients, leveraging the power of Langchain, Langserve, Pinecone, and AWS...</p>
-              <a href="#" class="readmore stretched-link"><span>Read More</span><i
-                  class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="post-box">
-              <div class="post-img"><img src="assets/img/blog/blog-4.png" class="img-fluid" alt=""></div>
-              <div class="meta">
-                <span class="post-date">2022, Oct 08</span>
-                <span class="post-author"> / Muhammad Tahir A.</span>
-              </div>
-              <h3 class="post-title">What is data governance? and Who is responsible for data governance?</h3>
-              <p>Defining what data means to an organization is one of the core data governance best practices. Once you
-                define what data means, you can formulate ways to use your data in ways that advance your business...
-              </p>
-              <a href="#" class="readmore stretched-link"><span>Read More</span><i
-                  class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-
         </div>
 
       </div>
+    </section><!-- /Features Alt Section -->
 
-    </section><!-- /Recent Posts Section -->
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="team-header" data-aos="fade-up" data-aos-delay="200">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <h2>My Professional Pillars & Key Collaborators</h2>
+              <p>Showcasing the diverse specializations and core competencies that define my versatile career as an
+                Information and Data Technologies Professional, alongside key roles that drive technological excellence.
+              </p>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-lg-end">
+              <div class="team-controls">
+                <button class="team-control-btn team-prev"><i class="bi bi-chevron-left"></i></button>
+                <button class="team-control-btn team-next"><i class="bi bi-chevron-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-slider swiper init-swiper" data-aos="fade-up" data-aos-delay="300">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 700,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": 1,
+              "spaceBetween": 30,
+              "navigation": {
+                "nextEl": ".team-next",
+                "prevEl": ".team-prev"
+              },
+              "breakpoints": {
+                "576": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 20
+                },
+                "992": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 30
+                },
+                "1200": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 30
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="team-member">
+                <div class="member-image">
+                  <img src="assets/img/person/faceface.png" class="img-fluid" alt="Muhammad Tahir A." loading="lazy">
+                  <div class="member-social">
+                    <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
+                    <a href="https://www.facebook.com/tahirtechinsights"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/tahir.official125/"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/tahirtechinsights/"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-content">
+                  <h3>Muhammad Tahir A.</h3>
+                  <span>CEO | Information & Data Technologies Lead | Data Engineer | Cloud Solutions Architect</span>
+                  <p>As a lead professional, I strategize and execute transformative data and technology initiatives,
+                    ensuring alignment with business objectives and delivering sustainable, impactful solutions across
+                    the entire tech stack. I design and implement robust, highly scalable data pipelines and
+                    cloud-native architectures. My expertise ensures efficient data flow, secure storage, and optimal
+                    performance for complex data processing needs on platforms like AWS, Azure, and GCP.</p>
+                </div>
+              </div>
+            </div><!-- End slide item -->
+
+
+            <div class="swiper-slide">
+              <div class="team-member">
+                <div class="member-image">
+                  <img src="assets/img/person/person-m-12.webp" class="img-fluid" alt="" loading="lazy">
+                  <!-- <div class="member-social">
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                  </div> -->
+                </div>
+                <div class="member-content">
+                  <h3>Data Science & Machine Learning Engineer</h3>
+                  <span>Driving insights and intelligent automation</span>
+                  <p>Focue on extracting actionable insights from data, developing predictive models, and deploying ML
+                    solutions. This includes expertise in statistical analysis, algorithm development, and MLOps for
+                    robust model lifecycle management.</p>
+                </div>
+              </div>
+            </div><!-- End slide item -->
+
+            <div class="swiper-slide">
+              <div class="team-member">
+                <div class="member-image">
+                  <img src="assets/img/person/person-m-3.webp" class="img-fluid" alt="" loading="lazy">
+                  <!-- <div class="member-social">
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                  </div> -->
+                </div>
+                <div class="member-content">
+                  <h3>Marcus Wilson</h3>
+                  <span>Chief Technology Officer</span>
+                  <p>As CTO, Marcus leads the technological vision and innovation strategy, overseeing the development
+                    and implementation of cutting-edge solutions to drive product excellence and architectural
+                    integrity.</p>
+                </div>
+              </div>
+            </div><!-- End slide item -->
+
+            <div class="swiper-slide">
+              <div class="team-member">
+                <div class="member-image">
+                  <img src="assets/img/person/person-m-8.webp" class="img-fluid" alt="" loading="lazy">
+                  <!-- <div class="member-social">
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                  </div> -->
+                </div>
+                <div class="member-content">
+                  <h3>Python Developer & Data Analyst</h3>
+                  <span>Transforming data into insights and solutions</span>
+                  <p>I leverage advanced Python programming to develop robust data processing scripts, automated
+                    workflows, and custom applications. My expertise as a Data Analyst involves rigorous statistical
+                    analysis, data visualization, and reporting to unearth actionable insights that drive strategic
+                    business decisions.</p>
+                </div>
+              </div>
+            </div><!-- End slide item -->
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- /Team Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">Get in Touch</span>
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out for inquiries, collaborations, or professional discussions.</p>
+      </div>
+      <div class="container">
+        <div class="contact-wrapper">
+          <div class="contact-info-panel">
+            <div class="contact-info-header">
+              <h3>Reach Out to Me</h3>
+              <p>I'm available to discuss your project needs and provide expert guidance. Choose the best contact method
+                for your location.</p>
+            </div>
+
+            <div class="contact-info-cards">
+              <div class="info-card">
+                <div class="icon-container">
+                  <i class="bi bi-pin-map-fill"></i>
+                </div>
+                <div class="card-content">
+                  <h4>U.S. Office Location</h4>
+                  <p>419 Main St, Springfield, IL 62701</p>
+                </div>
+              </div>
+
+              <div class="info-card">
+                <div class="icon-container">
+                  <i class="bi bi-envelope-open"></i>
+                </div>
+                <div class="card-content">
+                  <h4>Email Me</h4>
+                  <p>tahirtechinsights@gmail.com</p>
+                </div>
+              </div>
+
+              <div class="info-card">
+                <div class="icon-container">
+                  <i class="bi bi-telephone-fill"></i>
+                </div>
+                <div class="card-content">
+                  <h4>U.S. Phone Number</h4>
+                  <p>+1 (212) 555-0101</p>
+                  <p class="small text-muted">For international inquiries</p>
+                </div>
+              </div>
+
+              <div class="info-card">
+                <div class="icon-container">
+                  <i class="bi bi-telephone-fill"></i>
+                </div>
+                <div class="card-content">
+                  <h4>Pakistan Phone Number</h4>
+                  <p>+92 (306) 4447502</p>
+                  <p class="small text-muted">For local inquiries (Pakistan)</p>
+                </div>
+              </div>
+
+              <div class="info-card">
+                <div class="icon-container">
+                  <i class="bi bi-clock-history"></i>
+                </div>
+                <div class="card-content">
+                  <h4>Working Hours</h4>
+                  <p>Monday-Saturday: 9 AM - 7 PM</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links-panel">
+              <h5>Follow Me</h5>
+              <div class="social-icons">
+                <!-- <a href="#"><i class="bi bi-twitter-x"></i></a> -->
+                <!-- <a href="#"><i class="bi bi-youtube"></i></a> -->
+                <a href="https://www.facebook.com/tahirtechinsights"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/tahir.official125/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/tahirtechinsights/"><i class="bi bi-linkedin"></i></a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-panel">
+            <div class="map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="form-container">
+              <h3>Send Me a Message</h3>
+              <p>Have a question or a project in mind? Fill out the form below to get in touch. I'll get back to you as
+                soon as possible.</p>
+
+              <form action="https://formspree.io/f/mjkroqww" method="post">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="nameInput" name="name" placeholder="Full Name"
+                    required="">
+                  <label for="nameInput">Full Name</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="emailInput" name="email" placeholder="Email Address"
+                    required="">
+                  <label for="emailInput">Email Address</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="subjectInput" name="subject" placeholder="Subject"
+                    required="">
+                  <label for="subjectInput">Subject</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <textarea class="form-control" id="messageInput" name="message" rows="5" placeholder="Your Message"
+                    style="height: 150px" required=""></textarea>
+                  <label for="messageInput">Your Message</label>
+                </div>
+
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+
+                <div class="d-grid">
+                  <button type="submit" class="btn-submit">Send Message <i class="bi bi-send-fill ms-2"></i></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Contact Section -->
 
   </main>
 
-  <footer id="footer" class="footer light-background">
+  <footer id="footer" class="footer">
 
-    <div class="footer-top">
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-5 col-md-12 footer-about">
-            <a href="index.html" class="logo d-flex align-items-center">
-              <span class="sitename">Tahir Tech Insights</span>
-            </a>
-
-            <p>I am a <strong>Data Technology Expert</strong> specializing in <strong>Data Engineering</strong>,
-              <strong>Data Science</strong>, <strong>Cloud Architecture</strong>, <strong>DevOps</strong>, and
-              <strong>Full Stack Development</strong>. With a passion for innovation and problem-solving, I help
-              businesses harness the power of data and technology to drive growth, efficiency, and success. Let’s
-              collaborate to build the future together.</p>
-
-            <div class="social-links d-flex mt-4">
-              <a href="https://contra.com/tahirtechinsights" target="_blank"><i class="bi bi-briefcase"></i></a>
-              <!-- <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a> -->
-              <a href="https://www.linkedin.com/in/mtahirauthentic/"><i class="bi bi-linkedin"></i></a>
-            </div>
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Tahir Tech Insights</span>
+          </a>
+          <p>Tahir Tech Insights offers comprehensive expertise in Data Engineering, Cloud Solutions, DevOps, Data Science, Machine Learning, and Generative AI. Explore insights and connect for innovative tech solutions.</p>
+          <div class="social-links d-flex mt-4">
+            <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
+            <a href="https://www.facebook.com/tahirtechinsights"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/tahir.official125/"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/tahirtechinsights/"><i class="bi bi-linkedin"></i></a>
           </div>
-
-          <!-- <div class="col-lg-2 col-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
-            </ul>
-          </div> -->
-
-          <!-- <div class="col-lg-2 col-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">Product Management</a></li>
-              <li><a href="#">Marketing</a></li>
-              <li><a href="#">Graphic Design</a></li>
-            </ul>
-          </div> -->
-
-          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-            <h4>Contact Us</h4>
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p>United States</p>
-            <p class="mt-4"><strong>Phone:</strong> <span>+1 5509 95488 51</span></p>
-            <p><strong>Email:</strong> <span>tahirtechinsights@gmail.com</span></p>
-          </div>
-
         </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+        <h4>Contact Me</h4>
+        <p>419 Main St</p>
+        <p>Springfield, IL 62701</p>
+        <p>United States</p>
+        <p class="mt-4">
+            <strong>U.S. Phone:</strong> <span>+1 (212) 555-0101</span><br>
+            <span class="small text-muted">(For international inquiries)</span>
+        </p>
+        <p>
+            <strong>Pakistan Phone:</strong> <span>+92 (306) 4447502</span><br>
+            <span class="small text-muted">(For local inquiries)</span>
+        </p>
+        <p><strong>Email:</strong> <span>tahirtechinsights@gmail.com</span></p>
+      </div>
+
       </div>
     </div>
 
-    <div class="container copyright text-center">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">TahirTechInsights</strong> <span>All Rights
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Tahir Tech Insights</strong> <span>All Rights
           Reserved</span></p>
       <div class="credits">
-
-        Designed by <a href="#">Muhammad Tahir A</a>
+  
+        Designed by <a href="https://tahirtechinsights.tech/">Tahir Tech Insights</a>
       </div>
     </div>
 
@@ -605,10 +1186,11 @@
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
